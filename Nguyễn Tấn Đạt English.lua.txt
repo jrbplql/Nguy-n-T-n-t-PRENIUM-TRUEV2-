@@ -420,7 +420,7 @@ function Update:Window(text,logo,keybind)
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0, -5, 0, -5)
 	Logo.Size = UDim2.new(0, 135, 0, 135)
-	Logo.Image = "rbxassetid://79514156962817"
+	Logo.Image = "rbxassetid://15479783092"
     local Tab = Instance.new("Frame")
     Tab.Name = "Tab"
     Tab.Parent = Main
@@ -1084,7 +1084,7 @@ function Update:Window(text,logo,keybind)
         DropImage.Position = UDim2.new(0, 350, 0, 6)
         DropImage.Rotation = 180.000
         DropImage.Size = UDim2.new(0, 20, 0, 20)
-        DropImage.Image = "rbxassetid://79514156962817"
+        DropImage.Image = "rbxassetid://6031090990"
 
         for i,v in next,option do
             local Item = Instance.new("TextButton")
@@ -3841,7 +3841,7 @@ local Misc = Library:AddTab("Misc","4483345998")
 --- ThÃ´ng Tin
 NguyenTien:AddSeperator("Information Developer")
 NguyenTien:AddLabel("Owner: Nguyễn Tấn Đạt (VIP)")
-NguyenTien:AddLabel("Support Code: Nguyễn Tấn Đạt")
+NguyenTien:AddLabel("Support Code: Lynx (My Girl Friend)")
 NguyenTien:AddLabel("Ui: Thunderz Hub")
 NguyenTien:AddLabel("Thank You For Assisting Me With The\n Script Interface!")
 
@@ -13632,7 +13632,7 @@ Misc:AddButton("Kaitun Cap", function(value)
 		for k,v in pairs(cac) do
 			if ListHuhu[v] and game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buy"..v,true) == 1 then 
 				local huhu = Instance.new("ImageLabel",MeleeG)
-				huhu.Image = "rbxassetid://79514156962817"
+				huhu.Image = "rbxassetid://9945562382"
 				huhu.ImageRectSize = Vector2.new(100,100)
 				huhu.ImageRectOffset = ListHuhu[v]*100
 			end
